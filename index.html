@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" rel="stylesheet" href="styles/awesome-game.css" />
+<title>AwesomeGame</title>
+</head>
+
+<body>
+
+
+<div id="container">
+
+	<div id="header">
+		<h1>Consigne</h1>
+		<p>
+			Le jeu est simple mais vraiment fun !<br>
+			Je viens de generer un nombre entre 1 et 999.<br>
+			Bonne chance :-) !
+		</p>
+	</div>
+
+	<div id="statebar">
+		<h3>Historique</h3>
+		<span id="history"></span>
+	</div>
+
+	<div id="game-area">
+		<h3>Entre un nombre et tente ta chance !</h3>
+		<input type="text" id="guessed-number-field" name="your-number"> 
+		<button id="guessed-number-button" type="button">Je tente</button>
+	</div>
+	<div id="message" class="error-message"><p></p></div>
+
+	<div id="footer">
+		<p>Createur : Manuel Briot</p>
+	</div>
+
+</div>
+
+</body>
+<script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript" src="js/monscript.js"></script>
+</html>
